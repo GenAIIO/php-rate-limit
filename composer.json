@@ -3,13 +3,6 @@
     "description": "Fixed-window rate limiting. A RateLimiter over a pluggable store (file-backed by default), plus a RateLimitInterceptor that returns 429 when an IP exceeds the limit on a path (brute-force / flood protection). PHP 5.3-safe.",
     "type": "library",
     "license": "Apache-2.0",
-    "repositories": [
-        { "type": "path", "url": "../php-attribute" },
-        { "type": "path", "url": "../php-container" },
-        { "type": "path", "url": "../php-property" },
-        { "type": "path", "url": "../php-http" },
-        { "type": "path", "url": "../php-web" }
-    ],
     "require": {
         "php": ">=5.3.0",
         "genai/property": "*"
